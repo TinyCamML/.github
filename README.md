@@ -1,1 +1,1 @@
-# .github
+## This is a readme for the entire projec tto describe which repositories do what
