@@ -2,15 +2,17 @@
 
 IN PROGRESS README
 
-This organization is a community of scientists from the University of North Carolina at Wilmington, University of North Carolina at Greensboro, and North Carolina State University. The purpose of this organization is describe how to build an openMV and Boron sensor that is capable of transmitting real time data through cellular transmission. 
+This organization is a community of scientists from the University of North Carolina at Wilmington, University of North Carolina at Greensboro, and North Carolina State University. The purpose of this organization is to describe how to build an sensor with on-device machine learning and cellular transmission to identify spatial extent of coastal flooding. The two main devices are the OpenMV and Particle Boron. Below are a list of the repositories within this organization that help understand the individual devices (including firmware and circuit diagrams) and how they can be combined to create a functioning long-term, low cost, high efficiency sensor. 
 
-The [Boron respository](https://github.com/TinyCamML/Boron/commit/057b4ee289c73935bf9799aa4b66d42032f21d21) describes firmware necessary to communicate with the openMV, which has firmware details in the [OpenMV respository](https://github.com/TinyCamML/OMVmodel). This firmware applied to both devices will have the Boron wake up, use digitalwrite() to wake up the OpenMV that will then determine if what it is looking at is Flood or No Flood, return this back to the Boron, then both return to sleep for 60 seconds. 
 
-The [Boron and OpenMV basics repository](https://github.com/TinyCamML/Boron-and-OpenMV-Basics) provides the same firmware from the previous repositories named but also includes a circuit diagram. 
+The [Boron respository](https://github.com/TinyCamML/Boron/commit/057b4ee289c73935bf9799aa4b66d42032f21d21) describes firmware necessary to communicate with the openMV.
+[OpenMV respository](https://github.com/TinyCamML/OMVmodel) describes firmware necessary to communicate with the Boron. This repository also contains a tf.lite file that is necessary to upload onto the camera in order to successfully run the firmware. 
 
-The [UART Connections Repository](https://github.com/TinyCamML/UART-Communications) provides firmware for each device. Universal Asynchronous Reciever-Transmitter (UART) is the communciation protocol we use for exchanging data. 
+The [Boron and OpenMV basics repository](https://github.com/TinyCamML/Boron-and-OpenMV-Basics) provides the same firmware from the previous repositories named but also includes the circuit diagram. tf.lite file, and images for what you should be looking at. This repository contains a "How-To" guide for creating a device that is dependent on the computer USB power and does no have cellular transmission. This repo will allow you to test the firmware and wiring connections. This repository would be very helpful if you have an understanding of both devices and are ready to start running code. 
 
-The [Boron and OpenMV Respository](https://github.com/TinyCamML/Boron-and-OpenMV) contains firmware for the openMV and firmware for the Boron that allows the Boron to undergo cellular transmission. The goal of this repository is to allow the user to copy the firmware and circuit diagram to create a functioning sensor. 
+The [UART Connections Repository](https://github.com/TinyCamML/UART-Communications) contains firmware for both device and the circuit diagram. Basic connections between the devices can be found here. 
+
+The [Boron and OpenMV Respository](https://github.com/TinyCamML/Boron-and-OpenMV) contains firmware for the openMV and the Boron, a circuit diagram, and more images of what you should be looking at. The Boron's firmware in this repository is unique from the other repositories because it includes added cellular transmission and long-term sleeping capabilities. With this updated firmware and correct power supplies you should be able to create a device independent of the computer that has cellular transmission and publishing abilities. This repo is in progress. 
 
 
 <!--
