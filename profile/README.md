@@ -10,8 +10,6 @@ The [Boron respository](https://github.com/TinyCamML/Boron/commit/057b4ee289c739
 
 The [Boron and OpenMV basics repository](https://github.com/TinyCamML/Boron-and-OpenMV-Basics) provides the same firmware from the previous repositories named but also includes the circuit diagram. tf.lite file, and images for what you should be looking at. This repository contains a "How-To" guide for creating a device that is dependent on the computer USB power and does no have cellular transmission. This repo will allow you to test the firmware and wiring connections. This repository would be very helpful if you have an understanding of both devices and are ready to start running code. 
 
-The [UART Connections Repository](https://github.com/TinyCamML/UART-Communications) contains firmware for both device and the circuit diagram. Basic connections between the devices can be found here. 
-
 The [Boron and OpenMV Respository](https://github.com/TinyCamML/Boron-and-OpenMV) contains firmware for the openMV and the Boron, a circuit diagram, and more images of what you should be looking at. The Boron's firmware in this repository is unique from the other repositories because it includes added cellular transmission and long-term sleeping capabilities. With this updated firmware and correct power supplies you should be able to create a device independent of the computer that has cellular transmission and publishing abilities. This repo is in progress. 
 
 
