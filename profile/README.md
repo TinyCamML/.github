@@ -8,7 +8,7 @@ This organization is a community of scientists from the University of North Caro
 
 There is several active repositories.
 
-- [Boron and OpenMV Respository](https://github.com/TinyCamML/Boron-and-OpenMV), which contains firmware for the openMV and the Boron, a circuit diagram, and more images of what you should be looking at. The Boron's firmware in this repository is unique from the other repositories because it includes added cellular transmission and long-term sleeping capabilities. With this updated firmware and correct power supplies you should be able to create a device independent of the computer that has cellular transmission and publishing abilities. This repo is in progress. 
+- [TinyCamML repository](https://github.com/TinyCamML/Boron-and-OpenMV), which contains firmware for the openMV and the Boron, a circuit diagram, and more images of what you should be looking at. The Boron's firmware in this repository is unique from the other repositories because it includes added cellular transmission and long-term sleeping capabilities. With this updated firmware and correct power supplies you should be able to create a device independent of the computer that has cellular transmission and publishing abilities. This repo is in progress. 
 
 <!--
 
